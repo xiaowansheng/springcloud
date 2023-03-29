@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * @author wansheng
  * @createDate 2022/7/17 16:21
  */
-@Component
+//@Component
 public class PaymentHystrixService implements PaymentService{
     @Override
     public String ok() {

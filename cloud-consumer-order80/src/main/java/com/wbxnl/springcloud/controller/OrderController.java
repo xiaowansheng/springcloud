@@ -42,4 +42,11 @@ public class OrderController {
         log.info("获取的数据:"+result);
         return result.getBody();
     }
+    @GetMapping(value = "/payment/zipkin")
+    public String zipkin(){
+        String result = restTemplate.getForObject(PAYMENT_URL + "/payment/zipkin", String.class);
+        log.info("获取的数据:"+result);
+        return result;
+    }
+
 }

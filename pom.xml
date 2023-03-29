@@ -25,6 +25,21 @@
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-config-center3344</module>
         <module>cloud-config-client3355</module>
+        <module>cloud-config-client3366</module>
+        <module>cloud-stream-rabbitmq-provider8801</module>
+        <module>cloud-stream-rabbitmq-consumer8802</module>
+        <module>cloudAlibaba-provider-payment9001</module>
+        <module>cloudAlibaba-provider-payment9002</module>
+        <module>cloudAlibaba-config-nacos-client3377</module>
+        <module>cloudAlibaba-consumer-payment80</module>
+        <module>cloudAlibaba-consumer-payment81</module>
+        <module>cloudAlibaba-sentinel-service8401</module>
+        <module>cloudAlibaba-provider-payment9003</module>
+        <module>cloudAlibaba-provider-payment9004</module>
+        <module>cloudAlibaba-consumer-nacos-order83</module>
+        <module>seata-order-service2001</module>
+        <module>seata-storage-service2002</module>
+        <module>seata-account-service2003</module>
     </modules>
     <packaging>pom</packaging>
 
